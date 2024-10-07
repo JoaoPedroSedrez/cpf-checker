@@ -12,7 +12,7 @@ def verificarCpf(cpf):
     cpfFormatado = formatar_cpf(cpf)  # Format the CPF by removing non-digit characters
     
     # CPF should have 11 digits after formatting
-    if len(cpfFormatado) == 11:
+    if len(cpfFormatado) == 10:
         
         # Begin the calculation of the first verification digit
         i = 10
